@@ -54,12 +54,11 @@ section {
 }
 
 .title-card {
-    font-weight: 700;
     margin: 1rem 0;
 }
 
 .description-card {
-    font-weight: 400;
+    font-size: 15px;
 }
 
 /* MEDIA QUERIES */
