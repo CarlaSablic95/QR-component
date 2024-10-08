@@ -23,7 +23,7 @@ a {
     text-decoration: none;
 }
 
-section {
+.container-section {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -43,6 +43,7 @@ section {
     border-radius: 1rem;
     box-shadow: 10px 10px 17px 0px rgb(0 0 0 / 10%)
 }
+
 
 .image-container {
     width: 100%;
