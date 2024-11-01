@@ -7,13 +7,15 @@
 }
 
 :root {
-    --light-blue: #D5E1EF;
     --white: #FFFFFF;
+    --slate-300: hsl(212, 45%, 89%);
+    --slate-500: hsl(216, 15%, 48%);
+    --slate-900: hsl(218, 44%, 22%);
 }
 
 body {
     font-family: "Outfit", sans-serif;
-    background-color: var(--light-blue);
+    background-color: var(--slate-300);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -35,7 +37,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 15px;
+    padding: 15px 15px 40px 15px;
     border-radius: 1rem;
     box-shadow: 10px 10px 17px 0px rgb(0 0 0 / 10%);
     margin-bottom: 2rem;
@@ -62,10 +64,12 @@ a {
 .title-card {
     font-size: 20px;
     margin: 1rem 0;
+    color: var(--slate-900);
 }
 
 .description-card {
     font-size: 16px;
+    color: var(--slate-500)
 }
 
 footer {
